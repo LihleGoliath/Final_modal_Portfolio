@@ -1,8 +1,100 @@
+body{
+    overflow: hidden;
+    overflow-y:scroll;
+    scroll-behavior: smooth;
+}
+:root{
+    --main-bg-color: #d9832e;  
+    --light-gary-blue:#eaedf2;
+}
+nav{
+    background-color: var(--light-gary-blue);
+}
+ .block  {
+color: var(--main-bg-color);
+    border-right:var(--main-bg-color) solid 3px;
+}
+section:nth-of-type(even){
+    background-color: var(--light-gary-blue);
+}
+#logo{
+    background-color: var(--main-bg-color);
+}
+#nav-list{
+    background: #eee;
+  box-shadow: 0px 3px 10px 0px rgb(38 59 94 / 29%) ;
+  margin-left: 0;
+}
+.navbar{
+position: fixed;
+padding-top:0;
+margin-left:0;
+}
+
+#home-text{
+    margin-top: 200px;
+}
 #about-image{
     width:400px;
     height: 550px;
 border: 10px solid whitesmoke;
 }
-#home-text{
-    margin-top: 200px;
+.profile-image{
+    width: 300px;
+    height: 350px;
 }
+.project {
+    position: relative;
+  }
+  
+  .profile-text {
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s linear;
+  }
+  
+  .project:hover .profile-text {
+    opacity: 1;
+  }
+  /* Testmonails */
+  /* .testmonails{
+width: 200px;
+height: 300px;
+  } */
+  .owl-nav{
+      display: none;
+  }
+  .owl-carousel button.owl-dot{
+    
+      background: rgba(0, 0, 0, 1);
+      border-radius: 50%;
+
+  }
+  .owl-dot{
+      margin-top: 30px;
+    margin-left: 10px;
+      height: 10px;
+      width: 10px;
+      display: inline-block;
+      background-color: transparent;
+      /* color: black; */
+  }
+  .owl-dots{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
