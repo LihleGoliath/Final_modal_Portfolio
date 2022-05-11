@@ -118,3 +118,7 @@ height: 300px;
       justify-content: center;
       align-items: center;
   }
+  /* contacts */
+  .contacts{
+      background-color: var(--light-gary-blue);
+  }
