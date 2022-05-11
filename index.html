@@ -92,7 +92,7 @@
                     <p class="lead">The goal is not to get changed by the world.
                         Instead to change the world by changing yourself.  </p>
                          <div class="d-flex">
-                             <button type="button" class="btn text-light me-2 color ">my work</button><button type="button" class="btn hire ">hire me</button>
+                             <button type="button" class="btn text-light me-2 clickme ">my work</button><button type="button" class="btn hire ">hire me</button>
 
                          </div>
                         </div>
@@ -136,7 +136,10 @@
                     </ul>
                  </div>
              </div>
-             <button type="button" class="btn btn-warning color">Download CV</button>
+             <a href="./images/Lihle Goliath_CV.pdf" download="">
+                 <button type="button" class="btn btn-warning clickme">Download CV</button>
+
+             </a>
     </div>
   
 </div>
@@ -264,12 +267,12 @@
                 <div class="col-md-4">
                     <div class="project my-3 " style="width:fit-content;">
                         <img src="./images/Screenshot 2022-04-29 155205.png" alt="project" class="img-fluid rounded  profile-image">
-                        <div class="profile-text">
+                        <div class="profile-text text-center">
                             Font Gallery
                             <div class="row">
                                 <div class="col-6">
                                     <a href="https://dynamic-gingersnap-5d2507.netlify.app/" target="_blank">
-                                        <button class="btn  color text-white">
+                                        <button class="btn  clickme text-white">
                                             Live                                      
                                         </button>
                                     </a>                                    
@@ -294,7 +297,7 @@
                             <div class="row">
                                 <div class="col-6">
                                     <a href="https://cheery-axolotl-7cf81a.netlify.app/" target="_blank">
-                                        <button class="btn  color text-white">
+                                        <button class="btn  clickme text-white">
                                             Live                                      
                                         </button>
                                     </a>                                    
@@ -313,19 +316,19 @@
                 <div class="col-md-4 my-3" style="width:fit-content;">
                     <div class="project">
                         <img src="./images/Screenshot 2022-04-22 101142.png" alt="project"  class="img-fluid rounded profile-image">
-                        <div class="profile-text">
+                        <div class="profile-text text-center">
                             Holiday destination
                             <div class="row">
                                 <div class="col-6">
                                     <a href="https://classy-duckanoo-228856.netlify.app/" target="_blank">
-                                        <button class="btn  color text-white">
+                                        <button class="btn  clickme text-white">
                                             Live                                      
                                         </button>
                                     </a>                                    
                                 </div>
                                 <div class="col-6">
                                     <a href="https://github.com/LihleGoliath/Holidaydestination" target="_blank">
-                                        <button class="btn hire text-white" target="_blank">
+                                        <button class="btn hire text-white" >
                                             GitHud                                        
                                         </button> 
                                     </a>
@@ -417,42 +420,45 @@
             <h2 class="mb-3">Let's get in touch</h2>
 <div class="row">
     <div class="col-md-8">
-        <form action="form" class="text-center ">
+        <form action="https://formspree.io/f/mrgjrpwl"
+        method="POST"
+         class="text-center "  target="_blank" >
             <div class="row g-3 py-2 ">
                 <div class="col-md-6">
-                  <input type="text" class="form-control bg-white border-bottom" placeholder="Your Name" aria-label="First name">
+                  <input type="text" name="Name" class="form-control bg-white border-bottom" placeholder="Your Name" aria-label="First name" required>
                 </div>
                 <div class="col-md-6">
-                  <input type="text" class="form-control bg-white  border-bottom" placeholder="Your Email" aria-label="Last name">
+                  <input type="text" name="Email" class="form-control bg-white  border-bottom" placeholder="Your Email" aria-label="Last name" required>
                 </div>
             </div>
                 <div class="subject">
-                  <input type="text" class="form-control bg-white  border-bottom" placeholder="subject" aria-label="Subject">
+                  <input type="text" name="subject" class="form-control bg-white  border-bottom" placeholder="subject" aria-label="Subject" required>
                </div>                     
               <div class="mb-3  py-2">
-                <textarea class="form-control bg-white  border-bottom" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                <textarea name="Message" class="form-control bg-white  border-bottom" id="exampleFormControlTextarea1" rows="3" placeholder="Message" required></textarea>
               </div>
-              <button type="submit" class="btn btn-lg  color">Send Message</button>
-            </form>
+       <button type="submit" class="btn btn-lg  clickme">Send Message</button>
+        
+        </form>
 
     </div>
     <div class="col-md-4">
         <div class="container d-flex bg-white ">
-            <i class="bi bi-geo-alt  text-light rounded-circle  text-center pt-2 me-2 color" style="width:30px; height: 30px;" ></i>
+            <i class="bi bi-geo-alt  text-light rounded-circle  text-center pt-2 me-2 clickme" style="width:30px; height: 30px;" ></i>
             <div class="text-dark">
                 <h3>Location:</h3>
                 <p>Gugulethu,Cape Town  Western Cape</p>
             </div>
          </div>
         <div class="container d-flex bg-white">
-            <i class="bi bi-envelope  text-light rounded-circle  text-center pt-2 me-2 color" style="width:30px; height: 30px;"></i>
+            <i class="bi bi-envelope  text-light rounded-circle  text-center pt-2 me-2 clickme" style="width:30px; height: 30px;"></i>
             <div class="text-dark">
                 <h3>Email:</h3>
                 <p>lihlegoliath2@gmail.com</p>
             </div>
         </div>
         <div class="container d-flex bg-white">
-            <i class="bi bi-phone  text-light rounded-circle  text-center pt-2 me-2 color" style="width:30px; height: 30px;"></i>
+            <i class="bi bi-phone  text-light rounded-circle  text-center pt-2 me-2 clickme" style="width:30px; height: 30px;"></i>
             <div class="text-dark">
                 <h3>Phone:</h3>
                 <p>+1 5589 55488 55s</p>

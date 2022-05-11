@@ -8,12 +8,12 @@ body{
     --main-bg-color: #d9832e;  
     --light-gary-blue:#eaedf2;
 }
-/* a:active{ */
+a:active{
     background-color:var(--main-bg-color);
 }
 
 
-.color{
+.clickme{
    background-color:  var(--main-bg-color);
 }
 .hire{
