@@ -40,9 +40,10 @@ section:nth-of-type(even){
   margin-left: 0;
 }
 .navbar{
-position: fixed;
+   position: fixed;
 padding-top:0;
 margin-left:0;
+z-index: 1000;
 }
 
 #home-text{
@@ -121,4 +122,7 @@ height: 300px;
   /* contacts */
   .contacts{
       background-color: var(--light-gary-blue);
+  }
+  .footer-text{
+      color: var(--light-gary-blue);
   }
