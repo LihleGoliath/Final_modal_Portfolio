@@ -5,6 +5,10 @@ body{
     font-family: "Poppins", sans-serif;
     max-width: fit-content;
     padding-right: 0;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 :root{
     --main-bg-color: #d9832e;  
