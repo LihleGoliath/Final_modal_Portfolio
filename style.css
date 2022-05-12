@@ -3,6 +3,8 @@ body{
     overflow-y:scroll;
     scroll-behavior: smooth;
     font-family: "Poppins", sans-serif;
+    max-width: fit-content;
+    padding-right: 0;
 }
 :root{
     --main-bg-color: #d9832e;  
