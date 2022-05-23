@@ -66,6 +66,9 @@ margin-left:0;
 z-index: 1000;
 }
 
+#Home{
+    padding-top: 200px;
+}
 #home-text{
     margin-top: 200px;
 }
@@ -73,6 +76,8 @@ z-index: 1000;
     width:400px;
     height: 550px;
 border: 10px solid whitesmoke;
+
+object-fit: cover;
 }
 /* resume */
 .accordion-button:not(.collapsed){
@@ -148,6 +153,7 @@ height: 300px;
   .contacts{
       background-color: var(--light-gary-blue);
   }
+  
   .footer-text{
       color: var(--light-gary-blue);
   }
